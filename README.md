@@ -20,7 +20,7 @@ Uma live preview está disponivel através do [Netlify](https://frontend-internt
 
 ## 🚀 Como executar o projeto
 
-Basta clonar através do repositório ou por este [link](https://github.com/LucianoGalvao/frontend-internt-challenge/archive/main.zip)  acessar a pasta e abrir os arquivos index.html ou email.html
+Basta clonar através do repositório ou por este [link](https://github.com/LucianoGalvao/frontend-internt-challenge/archive/main.zip) , acessar a pasta e abrir os arquivos index.html ou email.html
 
 ---
 
