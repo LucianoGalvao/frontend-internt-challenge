@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Desafio | E-mail Page</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/styles/global.css" />
+  <link rel="stylesheet" href="./assets/styles/email-styles.css" />
+</head>
+
+<body>
+  <section id="email-header">
+    <div class="content">
+      <h5>Uma seleção de produtos</h5>
+      <h1>especial para você</h1>
+
+      <p>
+        Todos os produtos desta lista foram selecionados a partir da sua
+        navegação. Aproveite!
+      </p>
+    </div>
+  </section>
+
+  <section id="hello-user">
+    <div class="content">
+      <article>
+        <h1>Olá, Fulano</h1>
+        <p id="user-text">
+          Fizemos uma lista especial de produtos apenas para você. Isso mesmo: nesta lista temos só produtos que você
+          pode gostar. Seu amigo Ciclano lhe recomendou essa lista especial. Olha só:
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <section id="special-selection">
+    <div class="content">
+
+      <div class="products" id="products"></div>
+      <div class="input-block">
+        <button type="button" onclick="handleGetMoreProducts()">
+          Tem muito mais aqui. Vem ver!
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="content">
+      <p>
+        Testando suas habilidades em HTML, CSS e JS.<br />Linx Impulse<br />2020
+      </p>
+    </div>
+  </footer>
+
+  <script src="./assets/scripts/emailScript.js"></script>
+</body>
+
+</html>
